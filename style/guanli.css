@@ -1,0 +1,128 @@
+/* CSS Document */
+*{
+	pading:0;
+	margin: 0;
+}
+body{
+	background-color: gainsboro;
+}
+#container{
+	background-color: aliceblue;
+	width: 100%;
+	height: 916px;
+}
+header{
+	width: 1001px;
+	height: 242px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.logo{
+	width: 1001px;
+	height: 242px;
+	background-image:url(../images/logo.jpg);
+}
+.logo marquee{
+	float: left;
+	padding-left: 200px;
+	width: 60px;
+	padding-top: 200px;
+}
+.menu{
+	width: 1001px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: black;
+}
+.menu ul{
+		margin-left: 150px;
+		text-align: center;
+		padding-top: 5px;
+		float: left;
+		list-style-type: none;
+		font-size: 15px;
+		color: aliceblue;
+	}
+.menu li{
+		display: inline;
+		margin: 0 20px;
+}
+.menu a:hover{
+		color:white
+			;
+}
+.menu a:link{
+		color: white;
+		text-decoration: none;
+}
+.menu a:visited{
+		color: white;
+		text-decoration:underline;
+}
+.content{
+	width: 1001px;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.biaoti2{
+	background-image:url(../images/1.png);
+	background-repeat: repeat-x;
+	color: #535353;
+	font-size: 14px;
+}
+footer{
+	background-color: rgba(179,179,179,1.00);
+	height: 23px;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.liuyan{
+	border: 2px solid #cccccc;
+	width:100%;
+	clear: both;
+	margin:10px 0;
+	height: 125px;
+}
+.title{
+	width: 100%;
+	background-color: gainsboro;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	color: darkslategrey;
+	border-bottom: dashed 1px black;
+}
+.liuyan img{
+	float: left;
+}
+.liuyan .right{
+	float: left;
+	font-size: 14px;
+}
+.fenye{
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+	font-size: 14px;
+	margin-left: 340px;
+}
+.content1{
+	width: 1001px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: white;
+}
+#container1{
+	background-color: white;
+	width: 1001px;
+	height: 917px;
+	margin: 0 auto;
+}
+.liuyan img{
+	border-radius: 25%;
+}

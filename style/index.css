@@ -1,0 +1,158 @@
+/* CSS Document */
+*{
+	pading:0;
+	margin: 0;
+}
+body{
+	background-color: gainsboro;
+}
+#container{
+	background-color: aliceblue;
+	width: 100%;
+	height: 916px;
+}
+header{
+	width: 1001px;
+	height: 242px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.logo{
+	width: 1001px;
+	height: 242px;
+	background-image:url(../images/logo.jpg);
+}
+.logo marquee{
+	float: left;
+	padding-left: 200px;
+	width: 60px;
+	padding-top: 200px;
+}
+.menu{
+	width: 1001px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: black;
+}
+.menu ul{
+		margin-left: 150px;
+		text-align: center;
+		padding-top: 5px;
+		float: left;
+		list-style-type: none;
+		font-size: 15px;
+		color: aliceblue;
+	}
+.menu li{
+		display: inline;
+		margin: 0 20px;
+}
+.menu a:hover{
+		color:white
+			;
+}
+.menu a:link{
+		color: white;
+		text-decoration: none;
+}
+.menu a:visited{
+		color: white;
+		text-decoration:underline;
+}
+.content{
+	width: 1001px;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.content .left{
+	float: left;
+	width: 320px;
+	height: 600px;
+	background-color: aliceblue;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.content .right{
+	float: left;
+	width: 600px;
+	height: 540px;
+	background-color: antiquewhite;
+}
+.section{
+	width: 290px;
+	margin: 0 auto;
+	border:solid #cccccc 1px;
+	font-size: 14px;
+	background-color: white;
+}
+.section form{
+	margin: 0 auto;
+	padding-left: 20px;
+}
+.section form input{
+	margin-bottom: 5px;
+}
+.biaoti{
+	background-image:url(../images/1.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	color: #535353;
+	padding-bottom: 15px;
+}
+.bd{
+	margin: 5 auto;
+	text-align: center;
+}
+.section2{
+	width: 600px;
+	height: 570px;
+	
+	background-color: white;
+	border: solid 1px #ccc;
+}
+.ull{
+	list-style-type: none;
+	margin: 0 5px;
+}
+.biaoti2{
+	background-image:url(../images/1.png);
+	background-repeat: repeat-x;
+	color: #535353;
+	font-size: 14px;
+}
+.a{
+	margin-top: 30px;
+	margin-left: 20px;
+	position: relative;
+	color:slategray;
+	float: left;
+	
+}
+.b{
+	position: absolute;
+	right: 200px;
+	margin-top: 30px;
+	color:slategray;
+}
+.title{
+	position:static;
+	width:570px;
+	margin-top: 40px;
+	float: none;
+	padding: 0 24px;
+	
+}
+.title p{
+	border: solid 1px #cccccc;
+	padding: 5px;
+	font-size: 14px;
+}
+footer{
+	background-color: rgba(179,179,179,1.00);
+	height: 23px;
+	width: 100%;
+	text-align: center;
+	padding-top: 6px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
